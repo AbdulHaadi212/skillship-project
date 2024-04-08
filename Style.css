@@ -1,0 +1,344 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333333;
+    color: #06fcb2;
+    padding: 20px;
+    
+  }
+  
+  header h1 {
+    margin: 0;
+    float: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #ee3309;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .logo {
+    float: right; /* Align the logo to the left */
+  }
+  
+  .logo img {
+    width: 50px; /* Set the width of the logo */
+    height: 50px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add some margin to the right of the logo */
+    border-radius: 50%; /* Make the logo round */
+  }
+  
+  button[type="submit"] {
+    background-color: #2a08ee; /* Green background */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e60a0a; /* Darker green background on hover */
+  }
+
+  #about {
+    background-color: #09e2f2; /* Light gray background */
+    padding: 40px; /* Padding around content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  }
+  
+  #about h2 {
+    color: #333; /* Dark gray heading color */
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 20px; /* Spacing below heading */
+  }
+  
+  #about p {
+    color: #000000; /* Gray text color */
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 1.6; /* Line height for better readability */
+  }
+  
+  #about a {
+    color: #0870e0; /* Blue link color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  #about a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .project-box {
+    background-color: #89f0d8; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 20px; /* Padding around content */
+    margin: 10px; /* Margin between project boxes */
+    flex: 1 0 calc(33.33% - 20px); /* Adjust width for responsiveness */
+  }
+  
+  .project-box h3 {
+    color: #333; /* Dark gray heading color */
+    font-size: 20px; /* Font size for project titles */
+  }
+  
+  .project-box p {
+    color: #666; /* Gray text color */
+    font-size: 16px; /* Font size for project descriptions */
+  }
+  
+  .project-link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove default underline */
+    display: block; /* Display as block-level element */
+    margin-top: 10px; /* Add margin to the top of the link */
+  }
+  
+  .project-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
+  .project-link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove default underline */
+    display: inline-block; /* Display as block-level element */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 8px 16px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .project-link:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+  }
+
+
+  /* Center the "Skills" heading */
+#skills h2 {
+    text-align: center;
+    margin-bottom: 50px; /* Add some space below the heading */
+  }
+  
+  /* Styling for the "Skills" heading */
+  #skills h2 {
+    font-size: 36px; /* Increase font size */
+    color: #333; /* Dark gray color */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+    margin-bottom: 30px; /* Adjust margin for spacing */
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 0 20px; /* Add padding to the sides */
+  }
+  
+  .skill-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    flex: 1 0 calc(33.33% - 30px);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skill-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-card ul li {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add some spacing between sections */
+  .skill-card + .skill-card {
+    margin-left: 30px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .skill-card {
+      flex: 1 0 calc(50% - 30px);
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .skill-card {
+      flex: 1 0 calc(100% - 30px);
+    }
+  }
+  
+  
+
+ /* Skills Section */
+#skills {
+    padding: 50px 0;
+  }
+  
+  .skill-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .skill-card {
+    background-color: #f1d0d0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 30px;
+    flex: 1 0 calc(33.33% - 30px);
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .skill-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-card ul li {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add some spacing between sections */
+  .skill-card + .skill-card {
+    margin-left: 30px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .skill-card {
+      flex: 1 0 calc(50% - 30px);
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .skill-card {
+      flex: 1 0 calc(100% - 30px);
+    }
+  }
+
+  /* Contact Section */
+#contact {
+    padding: 50px 0;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info {
+    text-align: center;
+    flex: 1 0 calc(50% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #81fdbf;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-info:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  
+  
+  
+  
+  
+  
