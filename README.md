@@ -1,6 +1,3 @@
-Certainly! Below is an example of an interesting README file for the personal portfolio website project:
-
----
 
 # Personal Portfolio Website
 
@@ -27,8 +24,12 @@ Welcome to my personal portfolio website project! This website showcases my skil
 - If you have any questions or feedback, don't hesitate to reach out to me via email or phone.
 
 ## Screenshots
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 2023-07-21 0047356](https://github.com/Adjuncstar/skillship-project/assets/166446657/25f262b3-a125-437e-8d9a-38069317d09b)
+ots/screenshot2.png)
+![Screenshot 2023-07-21 0047048](https://github.com/Adjuncstar/skillship-project/assets/166446657/7535678d-b4c8-4fd5-bb32-f79d5b6001a5)
+![Screenshot 2024-04-06 012908](https://github.com/Adjuncstar/skillship-project/assets/166446657/7bf13b42-4fe7-4d19-b2df-af30fef77ebf)
+
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
