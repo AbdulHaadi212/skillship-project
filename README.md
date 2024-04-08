@@ -15,7 +15,8 @@ Welcome to my personal portfolio website project! This website showcases my skil
 - **JavaScript:** Used for interactivity and dynamic content.
 
 ## How to Run the Project
-1. **Download:** Clone or download the project files from the [GitHub Repository](https://github.com/example/project).
+1. **Download:** Clone or download the project files from the [Uploading zipSkillship.zip…]()
+.
 2. **Extract:** Extract the downloaded ZIP file to your desired location on your computer.
 3. **Open HTML File:** Find and open the `index.html` file in your preferred web browser to view the website.
 
